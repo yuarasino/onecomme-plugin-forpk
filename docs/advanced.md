@@ -19,9 +19,9 @@
 ## 3. 名前を変えたフォルダにDLしたプラグインをコピーする
 
 以下のプラグインをDLして解凍する。  
-[forpk-v1.2.0.zip](https://github.com/yuarasino/onecomme-plugin-forpk/releases/download/v1.2.0/forpk-v1.2.0.zip)
+[forpk-v1.0.0.zip](https://github.com/yuarasino/onecomme-plugin-forpk/releases/download/v1.0.0/forpk-v1.0.0.zip)
 
-「forpk-v1.2.0」フォルダの中にある **「forpk」フォルダ** を名前を変えたフォルダにコピーする。
+「forpk-v1.0.0」フォルダの中にある **「forpk」フォルダ** を名前を変えたフォルダにコピーする。
 
 ![](./images/advanced3.png)
 

@@ -26,10 +26,10 @@
 ## Download
 
 わんコメプラグイン「forpk」  
-[forpk-v1.2.0.zip](https://github.com/yuarasino/onecomme-plugin-forpk/releases/download/v1.2.0/forpk-v1.2.0.zip)
+[forpk-v1.0.0.zip](https://github.com/yuarasino/onecomme-plugin-forpk/releases/download/v1.0.0/forpk-v1.0.0.zip)
 
 プラグイン導入済みテンプレート「basic4pk」  
-[basic4pk-v1.2.0.zip](https://github.com/yuarasino/onecomme-plugin-forpk/releases/download/v1.2.0/basic4pk-v1.2.0.zip)
+[basic4pk-v1.0.0.zip](https://github.com/yuarasino/onecomme-plugin-forpk/releases/download/v1.0.0/basic4pk-v1.0.0.zip)
 
 
 ## Usage: 「basic4pk」テンプレートの導入方法

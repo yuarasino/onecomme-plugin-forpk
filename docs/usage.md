@@ -15,9 +15,9 @@
 ## 2. テンプレートフォルダにDLしたテンプレートをコピーする
 
 以下のテンプレートをDLして解凍する。  
-[basic4pk-v1.2.0.zip](https://github.com/yuarasino/onecomme-plugin-forpk/releases/download/v1.2.0/basic4pk-v1.2.0.zip)
+[basic4pk-v1.0.0.zip](https://github.com/yuarasino/onecomme-plugin-forpk/releases/download/v1.0.0/basic4pk-v1.0.0.zip)
 
-「basic4pk-v1.2.0」の中にある **「basic4pk」** フォルダをテンプレートフォルダにコピーする。
+「basic4pk-v1.0.0」の中にある **「basic4pk」** フォルダをテンプレートフォルダにコピーする。
 
 ![](./images/usage2.png)
 
