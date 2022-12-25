@@ -1,6 +1,6 @@
-# Advanced: ほかのテンプレートへの「formj」導入方法
+# Advanced: ほかのテンプレートへの「forpk」導入方法
 
-他のテンプレート(yurucampなど)を使っている人向けの「formj」導入方法です。
+他のテンプレート(yurucampなど)を使っている人向けの「forpk」導入方法です。
 
 ## 1. テンプレートフォルダを開く
 
@@ -12,37 +12,37 @@
 ## 2. テンプレートフォルダの使いたいテンプレートをコピーして名前を変える
 
 使いたいテンプレートを選んでコピーして、名前を変える。  
-以下、「yurucamp」→「yurucamp4mj」に変えたとして説明します。
+以下、「yurucamp」→「yurucamp4pk」に変えたとして説明します。
 
 ![](./images/advanced2.png)
 
 ## 3. 名前を変えたフォルダにDLしたプラグインをコピーする
 
 以下のプラグインをDLして解凍する。  
-[formj-v1.2.0.zip](https://github.com/yuarasino/onecomme-plugin-formj/releases/download/v1.2.0/formj-v1.2.0.zip)
+[forpk-v1.2.0.zip](https://github.com/yuarasino/onecomme-plugin-forpk/releases/download/v1.2.0/forpk-v1.2.0.zip)
 
-「formj-v1.2.0」フォルダの中にある **「formj」フォルダ** を名前を変えたフォルダにコピーする。
+「forpk-v1.2.0」フォルダの中にある **「forpk」フォルダ** を名前を変えたフォルダにコピーする。
 
 ![](./images/advanced3.png)
 
 ## 4. index.htmlに1行追加する
 
-「yurucamp4mj」フォルダの中の `index.html` をメモ帳などで開く。  
+「yurucamp4pk」フォルダの中の `index.html` をメモ帳などで開く。  
 `<script src="./script.js"></script>` の上に、以下の1行を足す。
 
 ```html
-<script src="./formj/formj.js"></script>
+<script src="./forpk/forpk.js"></script>
 ```
 
 ![](./images/advanced4.png)
 
 ## 5. script.jsに1行追加する
 
-「yurucamp4mj」フォルダの中の `script.js` をメモ帳などで開く。  
+「yurucamp4pk」フォルダの中の `script.js` をメモ帳などで開く。  
 `const index = cache.get(comment.data.id)` の上に、以下の1行を足す。
 
 ```js
-comment = comment4mj(comment)
+comment = comment4pk(comment)
 ```
 
 ![](./images/advanced5.png)

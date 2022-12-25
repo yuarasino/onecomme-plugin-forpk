@@ -1,0 +1,11 @@
+.card {
+  width: 30px !important;
+  height: 35px !important;
+  vertical-align: -7px !important;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+.margin {
+  margin-right: 4px;
+}
