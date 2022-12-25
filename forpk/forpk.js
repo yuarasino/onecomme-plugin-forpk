@@ -60,9 +60,9 @@
 
   /** hdsc表記(半角)をsvgに置き換える */
   const _replaceEnHdscExp = (text, color) => {
-    const exp = new RegExp(`(?:[A123456789TJQK][hdsc])+`, 'g')
+    const exp = new RegExp(`(?:[A23456789TJQK][hdsc])+`, 'g')
     text = text.replace(exp, (match) => {
-      match = match.replace(/[A123456789TJQK][hdsc]/g, (card) => {
+      match = match.replace(/[A23456789TJQK][hdsc]/g, (card) => {
         return _card2img(card[1], card[0], color)
       })
       return match
@@ -72,7 +72,7 @@
 
   /** hdsc表記(全角)をsvgに置き換える */
   const _replaceEmHdscExp = (text, color) => {
-    const exp = new RegExp(`(?:[Ａ１２３４５６７８９ＴＪＱＫ][ｈｄｓｃ])+`, 'g')
+    const exp = new RegExp(`(?:[Ａ２３４５６７８９ＴＪＱＫ][ｈｄｓｃ])+`, 'g')
     text = text.replace(exp, (match) => {
       match = match.replace(/[Ａ-Ｚａ-ｚ０-９]/g, (x) => {
         return String.fromCharCode(x.charCodeAt(0) - 0xFEE0)
