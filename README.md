@@ -14,7 +14,7 @@
 コメント欄のトランプっぽいものを画像に置き換えて見た目を楽しくします！  
 わんコメのほとんどのテンプレートに導入できます。
 
-※このプラグインは [onecomme-plugin-forpk](https://github.com/yuarasino/onecomme-plugin-forpk) をフォークして作っています。ところどころ麻雀用のままになってますが、適宜 forpk -> forpk に読み替えてください。　
+※このプラグインは [onecomme-plugin-formj](https://github.com/yuarasino/onecomme-plugin-formj) をフォークして作っています。ところどころ麻雀用のままになってますが、適宜 formj -> forpk に読み替えてください。　
 
 
 ## Requirement
